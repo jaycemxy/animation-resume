@@ -1,5 +1,3 @@
-var text = "body{color:red;}"
-
 var result = `
 /*
  * 面试官你好，我是马心悦
@@ -26,15 +24,10 @@ html{
 .token.function{
     color: #DD4A28;
 }
-`
+`;
 
-var n = 0
+var n = 0;
 var id = setInterval(() => {
-    n += 1
-    code.innerHtml = result.substring(0, n)
-    code.innerHtml = Prism.highlight(code.innerHtml, Prism.languages.css);
-    styleTag.innerHtml = result.subString(0, n)
-    if (n >= result.length) {
-        window.clearInterval(id)
-    }
-}, 10)
+    n += 1;
+     document.getElementById('code').innerText = result.substring(0, n);
+}, 50);
