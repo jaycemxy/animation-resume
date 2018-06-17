@@ -1,9 +1,23 @@
-.token.selector{
-    color: black;
-}
-.token.property{
-    color: black;
-}
+*{margin: 0;padding: 0;box-sizing: border-box}
+
+
+.token.selector,
+.token.punctuation,
+.token.property,
 .token.function{
     color: black;
+}
+
+#codeArea{
+    overflow-y: scroll;
+}
+#codeArea::-webkit-scrollbar {
+    display: none;
+}
+#paperPre{
+    padding: 16px;
+    overflow-y: scroll;
+}
+#paperPre::-webkit-scrollbar {
+    display: none;
 }
