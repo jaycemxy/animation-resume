@@ -15,15 +15,15 @@
     padding: 16px;
   
 }
-/* 纯黑太丑啦，加点颜色吧 */
+/* 黑色太丑了，给它加点颜色吧 */
 .token.selector{
-    color: rgb(215,186,116);
+    color: #690;
 }
 .token.punctuation{
     color: #999;
 }
 .token.property{
-    color: rgb(156,220,247);
+    color: #905;
 }
 .token.function{
     color: #DD4A68;
