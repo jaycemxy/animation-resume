@@ -1,20 +1,9 @@
-<<<<<<< HEAD
 let cssCode = `/*
 * 你好，我是马心悦
 * 普通的文字介绍太单调了
 * 下面我用代码来介绍一下自己
 * 首先准备一些样式
 */
-=======
-var result = `
-/*
- * 面试官你好，我是马心悦
- * 只用文字做介绍太过单调
- * 下面我将用代码来介绍我自己
- * 首先准备一些样式
- */
-
->>>>>>> e6d775519e97bcec48e56ee2b6a3f9d7444465c7
 *{
     transition: all 1s;
 }
@@ -65,7 +54,6 @@ let cssCode2 = `/*
     box-shadow: -2px 2px 30px rgba(0,0,0,0.7);
     border: 2px solid rgb(68,68,68);
 }
-<<<<<<< HEAD
 /* 请看右边~ */
     `
 let markDown = `
@@ -126,12 +114,3 @@ function writeMarkdown(){
     },0)
     
 }
-=======
-`;
-
-var n = 0;
-var id = setInterval(() => {
-    n += 1;
-     document.getElementById('code').innerText = result.substring(0, n);
-}, 50);
->>>>>>> e6d775519e97bcec48e56ee2b6a3f9d7444465c7
